@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# WorkBuddy 本地运行时状态（不应进仓库）
+.created-by-session
+
+# 打包产物
+*.zip

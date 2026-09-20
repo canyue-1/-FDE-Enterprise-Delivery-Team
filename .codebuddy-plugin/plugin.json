@@ -1,0 +1,122 @@
+{
+  "name": "fde-delivery",
+  "version": "1.0.0",
+  "description": "Six-role FDE team that takes enterprise AI projects from on-site discovery to production delivery, covering discovery, solution architecture, agent engineering, RAG and system integration, and quality/safety assurance.",
+  "author": {
+    "name": "残月",
+    "email": "noreply@example.com"
+  },
+  "agents": [
+    "./agents/fde-delivery-team-lead.md",
+    "./agents/fde-discovery-officer.md",
+    "./agents/fde-solution-architect.md",
+    "./agents/fde-agent-engineer.md",
+    "./agents/fde-integration-engineer.md",
+    "./agents/fde-assurance-officer.md"
+  ],
+  "skills": [
+    "./skills/fde-delivery-knowledge"
+  ],
+
+  "expertType": "team",
+  "agentName": "fde-delivery-team-lead",
+  "teamInfo": {
+    "leadAgent": "fde-delivery-team-lead",
+    "memberAgents": [
+      "fde-discovery-officer",
+      "fde-solution-architect",
+      "fde-agent-engineer",
+      "fde-integration-engineer",
+      "fde-assurance-officer"
+    ]
+  },
+
+  "displayName": {
+    "en": "FDE Enterprise Delivery Team",
+    "zh": "FDE 企业交付专家团"
+  },
+  "profession": {
+    "en": "FDE Enterprise Delivery Team",
+    "zh": "FDE 企业交付专家团"
+  },
+  "displayDescription": {
+    "en": "A six-role FDE team covering discovery, solution architecture, agent engineering, RAG and system integration, and quality/safety assurance, driving enterprise AI projects end to end.",
+    "zh": "AI交付专家团：覆盖客户发现、方案架构、Agent工程、RAG与集成、质量安全，主持端到端落地。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "我手上有个企业AI项目，帮我从客户需求发现一路推到上线交付",
+    "en": "I have an enterprise AI project — take it from customer discovery through to production delivery"
+  },
+  "plugin": "fde-delivery",
+  "tags": [
+    { "en": "Enterprise AI Delivery", "zh": "企业AI交付" },
+    { "en": "Agent Engineering", "zh": "Agent工程" },
+    { "en": "LLM Application", "zh": "大模型应用" }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "我手上有个企业AI项目，帮我从客户需求发现一路推到上线交付",
+      "en": "I have an enterprise AI project — take it from customer discovery through to production delivery"
+    },
+    {
+      "zh": "帮我评估这个AI场景值不值得投入，把基线、TCO和风险成本算清楚",
+      "en": "Assess whether this AI use case is worth investing in, with baseline, TCO and risk cost"
+    },
+    {
+      "zh": "我的Agent上线后检索不准、没人用，帮我定位问题并给出加固方案",
+      "en": "My agent retrieves poorly and nobody uses it — help me diagnose and harden it"
+    }
+  ],
+  "members": [
+    {
+      "id": "fde-delivery-team-lead",
+      "name": { "en": "Zhen", "zh": "甄落地" },
+      "displayName": { "en": "Zhen", "zh": "甄落地" },
+      "profession": { "en": "Enterprise AI Delivery Director", "zh": "企业AI交付总监" },
+      "avatar": "avatars/fde-delivery-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "fde-discovery-officer",
+      "name": { "en": "Wen", "zh": "闻清源" },
+      "displayName": { "en": "Wen", "zh": "闻清源" },
+      "profession": { "en": "Discovery Officer", "zh": "客户发现官" },
+      "avatar": "avatars/fde-discovery-officer.png",
+      "role": "member"
+    },
+    {
+      "id": "fde-solution-architect",
+      "name": { "en": "Ji", "zh": "计周全" },
+      "displayName": { "en": "Ji", "zh": "计周全" },
+      "profession": { "en": "AI Solution Architect", "zh": "AI方案架构师" },
+      "avatar": "avatars/fde-solution-architect.png",
+      "role": "member"
+    },
+    {
+      "id": "fde-agent-engineer",
+      "name": { "en": "Chen", "zh": "陈稳当" },
+      "displayName": { "en": "Chen", "zh": "陈稳当" },
+      "profession": { "en": "Agent Engineer", "zh": "Agent工程专家" },
+      "avatar": "avatars/fde-agent-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "fde-integration-engineer",
+      "name": { "en": "Lian", "zh": "连得顺" },
+      "displayName": { "en": "Lian", "zh": "连得顺" },
+      "profession": { "en": "Enterprise Integration Engineer", "zh": "企业系统集成工程师" },
+      "avatar": "avatars/fde-integration-engineer.png",
+      "role": "member"
+    },
+    {
+      "id": "fde-assurance-officer",
+      "name": { "en": "Yan", "zh": "严守界" },
+      "displayName": { "en": "Yan", "zh": "严守界" },
+      "profession": { "en": "Quality & Safety Officer", "zh": "质量与安全官" },
+      "avatar": "avatars/fde-assurance-officer.png",
+      "role": "member"
+    }
+  ]
+}
