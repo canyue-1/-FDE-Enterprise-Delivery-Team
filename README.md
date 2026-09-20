@@ -139,14 +139,6 @@ python3 <expert-manager>/scripts/package_expert.py <expert-dir>
 
 ---
 
-## 知识来源
-
-内容提炼自《人人会AI-智能体进阶（FDE成长指南73篇）》。
-
-该系列原规划为三阶十五模块共 75 篇正文，当前归档正文 63 篇 + 专栏 10 篇。指南 64—75 尚未归档，`method-cheatsheet.md` 中已显式标注「原文待归档」，专家成员被要求不得虚构该部分细节。缺篇清单见 `article-index.md`。
-
----
-
 ## 许可证
 
 暂未指定（All rights reserved）。
